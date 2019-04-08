@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>addtwono</title>
+    <script>
+    function fact()
+    {
+      var i,a,res=1;
+      a=Number(document.getElementById("first").value);
+      for(i=a;i>=1;i--)
+      {
+        res=res*a;
+        a=a-1;
+      }
+      alert("the factorial is="+res);
+    }
+    </script>
+  </head>
+<body>
+      enter no:<input type="text" name="number" id="first" ></input><br>
+      <button onclick="fact()">Check</button>
+</body>
+</html>
